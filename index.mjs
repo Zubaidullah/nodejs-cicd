@@ -7,7 +7,8 @@ app.get("/", (req, res) => {
 });
 
 app.get("/hello", (req, res) => {
-  res.send("Hello from the /hello route");
+  res.send("Hello from the /hello route in index.mjs");
+  res.end();
 });
 
 app.listen(3000, "0.0.0.0", () => {
