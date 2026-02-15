@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.send("This is the about page from the index.mjs file");
+  res.send("This is the about page and it is also from the index.mjs file");
 });
 
 app.listen(3000, () => {
