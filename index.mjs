@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.send("making some changes to the about page");
+  res.send("making some changes to the about page more changes to the about page");
 });
 
 app.listen(3000, () => {
